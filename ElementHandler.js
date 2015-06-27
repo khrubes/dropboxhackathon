@@ -4,6 +4,7 @@ var ElementHandler = (function (ElementHandler) {
 	    console.log("ElementHandler.handleHTMLElement"+ element);
 	    switch (element.tagName) {
 	    case "IMG":
+		console.log("Making images not focusable.");
 		element.setAttribute("alt", "");
 		element.setAttribute("tabIndex", -1);
 		break;
