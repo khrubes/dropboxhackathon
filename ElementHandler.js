@@ -4,7 +4,8 @@ var ElementHandler = (function (ElementHandler) {
 	    console.log("ElementHandler.handleHTMLElement"+ element);
 	    switch (element.tagName) {
 	    case "IMG":
-		element.attr("alt", "")
+		element.setAttribute("alt", "");
+		element.setAttribute("tabIndex", -1);
 		break;
 	    }
 	};
