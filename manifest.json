@@ -1,0 +1,13 @@
+{
+  "name": "Dopbox Accessibility",
+  "version": "0.1",
+  "manifest_version": 1,
+  "minimum_chrome_version": "37",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [],
+  "optional_permissions": [ "documentScan" ]
+}
