@@ -1,6 +1,6 @@
 var ElementHandler = (function (ElementHandler) {
 
-    ElementHandler.handleDocument = function(document) {
+    ElementHandler.handleDocument = function() {
 	var all = document.getElementsByTagName("*");
 	for (var i=0, max=all.length; i < max; i++) {
 	    handleHTMLElement(all[i]);
