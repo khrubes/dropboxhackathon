@@ -10,12 +10,12 @@ var ElementHandler = (function (ElementHandler) {
 
     ElementHandler.handleHTMLElement = function(element) {
 	switch (element.tagName) {
-	case "IMG":
-	    console.log("Making image not focusable.");
-	    element.setAttribute("alt", "");
-	    element.setAttribute("tabIndex", -1);
-	    break;
-	}
+		case "IMG":
+			console.log("Making image not focusable.");
+			element.setAttribute("alt", "");
+			element.setAttribute("tabIndex", -1);
+			break;
+		}
     };
     return ElementHandler;
     
