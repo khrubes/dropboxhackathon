@@ -1,9 +1,11 @@
-$(document).attr("title", "WE BALLERS");
-
-
-
 this.OrderController.order(OrderController.getHomePageList());
 
-this.ElementHandler.handleDocument();
-//made this no args because document is global var
+$('body').keydown(function(e) {
+    var code = e.keyCode || e.which;
+    if (code === 9) {  
+        e.preventDefault();
+        alert('tab');
+    }
+});
 
+this.ElementHandler.handleDocument();
