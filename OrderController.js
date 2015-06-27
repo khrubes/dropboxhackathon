@@ -2,12 +2,14 @@
 var OrderController = {
 	order: function(list) {
 		if	(list && list instanceof Array){
-			for( var i=0; i<list.length; i++){
-				console.log(list[i]);
-				(list[i]).attr('tabindex', i + 1);
-			}
+			// for( var i=0; i<list.length; i++){
+				// (list[i]).attr('tabindex', i);
+				// console.log(list[i]);
+			// }
+			(list[0]).focus();
 		}
 	},
+	
 	getHomePageList: function() {
 		var elements = new Array();
 		elements.push($("#sign-in"));
@@ -17,8 +19,7 @@ var OrderController = {
 		return elements;
 	},
 	
-	getMydropboxList: function() {
-	
+	getMydropboxList: function() {	
 	},
 }; 
 
