@@ -15,9 +15,6 @@ var ElementHandler = (function (ElementHandler) {
 	    element.setAttribute("alt", "");
 	    element.setAttribute("tabIndex", -1);
 	    break;
-	
-	case "input":
-		this.value
 	}
     };
     return ElementHandler;
