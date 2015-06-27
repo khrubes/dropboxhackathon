@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.dropbox.com/*"],
-      "js": ["contentscript.js"]
+      "js": ["jquery-2.1.4.js", "contentscript.js"]
     }
   ]
 }
