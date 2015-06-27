@@ -1,5 +1,5 @@
 $(document).attr("title", "WE BALLERS");
-console.log(document.body);
 
 
-console.log(this.OrderController);
+this.OrderController.order();
+this.ElementHandler.handleHTMLElement(document.body);
